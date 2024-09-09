@@ -1,0 +1,122 @@
+@media screen and (max-width: 600px) {
+    .container {
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    nav ul {
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    nav ul li {
+    margin: 10px 0;
+    }
+    }
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.main-container{
+    height: 100%;
+    width: 80%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.title{
+    font-size: 85px;
+    font-weight: lighter;
+}
+
+.red-dot{
+    display: inline-block;
+    margin-left: -15px;
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    /* border: solid; */
+    border-radius: 30px;
+    background-color: red;
+}
+
+hr {
+    /* border: none; */
+    border-top: 1px solid #000; 
+    margin: 3px;
+}
+
+
+.input-field,.input::placeholder{
+    font-size: 20px;
+    /* font-weight: bold; */
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    /* border: solid; */
+    /* border-color: aliceblue; */
+}
+
+.button{
+    margin-top: 30px;
+    height: 56px;
+    width: 50px;
+    background-color: red;
+    color: aliceblue;
+    /* font-weight: bolder; */
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.main-content{
+    margin: 70px;
+    border: solid;
+    height: 100%;
+    padding: 10px;
+}
+
+h2{
+    color: red;
+}
+
+
+.image{
+    border: solid;
+    width: 270px;
+}
+
+
+.content1{
+    flex-grow: 1;
+    border: solid;
+    height: 350px;
+    width: 270px;
+    min-width: 100px;
+}
+
+.vks{
+    display: flex;
+    justify-content: center;
+}
